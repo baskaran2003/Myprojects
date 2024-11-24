@@ -104,14 +104,19 @@ font_name = StringVar(window)
 font_name.set("Arial")
 
 font_size = StringVar(window)
-font_size.set("25")
+font_size.set("20")
 
-text_area = Text(window, font=(font_name.get(), font_size.get()))
+#text_frame = Frame(window)
+#text_frame.grid(row = 0,column = 0,sticky=N+E+S+W)
 
-scroll_bar = Scrollbar(text_area)
+text_area = Text(window, font=(font_name.get(), font_size.get()),wrap="word")
+text_area.pack(side=LEFT,fill=BOTH,expand = True)
+
+scroll_bar = Scrollbar(text_area,orient=VERTICAL,command=text_area.yview)
 window.grid_rowconfigure(0, weight=1)
 window.grid_columnconfigure(0, weight=1)
 text_area.grid(sticky=N + E + S + W)
+
 scroll_bar.pack(side=RIGHT, fill=Y)
 text_area.config(yscrollcommand=scroll_bar.set)
 
@@ -147,5 +152,8 @@ edit_menu.add_command(label="Paste", command=paste)
 help_menu = Menu(menu_bar, tearoff=0)
 menu_bar.add_cascade(label="Help", menu=help_menu)
 help_menu.add_command(label="About", command=about)
+
+
+
 
 window.mainloop()
