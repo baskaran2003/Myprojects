@@ -1,12 +1,12 @@
-# 📊 SQL EDA Project: Layoffs Dataset Analysis
+# SQL EDA Project: Layoffs Dataset Analysis
 
-## 📁 Project Overview
+## Project Overview
 
 This project involves **cleaning and exploring layoff data** using **MySQL** to uncover meaningful insights and trends from global tech layoffs. It demonstrates SQL-based **data preprocessing**, **validation**, and **exploratory data analysis (EDA)**, making it ideal for data analysts and learners aiming to strengthen their SQL skills.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **MySQL 8+**
 - SQL (DDL, DML, CTEs, Window Functions)
@@ -14,7 +14,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 📌 Objectives
+## Objectives
 
 - Clean and standardize raw data using SQL.
 - Eliminate duplicates, NULLs, and inconsistencies.
@@ -22,7 +22,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 📂 Files Included
+## Files Included
 
 | File Name              | Description                                  |
 |------------------------|----------------------------------------------|
@@ -33,7 +33,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 🧹 Data Cleaning Summary (`Cleaning_data.sql`)
+##  Data Cleaning Summary (`Cleaning_data.sql`)
 
 - Created staging tables and inserted data for processing.
 - Removed exact duplicates using `ROW_NUMBER()` and `CTE`.
@@ -47,7 +47,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 📈 EDA Highlights (`EDA of layoffs.sql`)
+## EDA Highlights (`EDA of layoffs.sql`)
 
 - **Maximum Layoffs:** Identified companies with highest individual and total layoffs.
 - **Layoff Percentages:** Found companies with 100% layoffs (full shutdowns).
@@ -58,7 +58,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 📊 Sample Insights
+## Sample Insights
 
 - Startups with full layoffs often had low funding or single funding rounds.
 - U.S. and India recorded the highest layoff volumes across tech hubs.
@@ -66,7 +66,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## ✅ Key Learning Outcomes
+## Key Learning Outcomes
 
 - End-to-end SQL workflow: Import → Clean → Analyze
 - Real-world data handling: duplicate removal, NULL handling, standardization
@@ -74,7 +74,7 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 🔗 Future Improvements
+## Future Improvements
 
 - Visualize trends using Tableau or Power BI
 - Automate analysis using scheduled SQL jobs or Python integration
@@ -82,11 +82,4 @@ This project involves **cleaning and exploring layoff data** using **MySQL** to 
 
 ---
 
-## 👤 Author
-
-**[Your Name]**  
-Bachelor of Engineering – Computer Science and Engineering  
-Open to work | SQL • Python • Data Analytics  
-
----
 
